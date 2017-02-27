@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		32C756AD1E64581F00B89E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C756AC1E64581F00B89E12 /* AppDelegate.swift */; };
-		32C756AF1E64581F00B89E12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C756AE1E64581F00B89E12 /* ViewController.swift */; };
 		32C756B21E64581F00B89E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C756B01E64581F00B89E12 /* Main.storyboard */; };
 		32C756B51E64581F00B89E12 /* LoadCars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32C756B31E64581F00B89E12 /* LoadCars.xcdatamodeld */; };
 		32C756B71E64581F00B89E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C756B61E64581F00B89E12 /* Assets.xcassets */; };
 		32C756BA1E64581F00B89E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C756B81E64581F00B89E12 /* LaunchScreen.storyboard */; };
+		32C756C21E645AE500B89E12 /* carsNormal.json in Resources */ = {isa = PBXBuildFile; fileRef = 32C756C11E645AE500B89E12 /* carsNormal.json */; };
+		32C756C41E645AEE00B89E12 /* carsNotNormal.json in Resources */ = {isa = PBXBuildFile; fileRef = 32C756C31E645AEE00B89E12 /* carsNotNormal.json */; };
+		32C756C61E645B8C00B89E12 /* MakeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C756C51E645B8C00B89E12 /* MakeTableViewController.swift */; };
+		32C756C81E6480E300B89E12 /* ModelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C756C71E6480E200B89E12 /* ModelsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32C756A91E64581F00B89E12 /* LoadCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadCars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C756AC1E64581F00B89E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32C756AE1E64581F00B89E12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32C756B11E64581F00B89E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32C756B41E64581F00B89E12 /* LoadCars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoadCars.xcdatamodel; sourceTree = "<group>"; };
 		32C756B61E64581F00B89E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32C756B91E64581F00B89E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32C756BB1E64581F00B89E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C756C11E645AE500B89E12 /* carsNormal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carsNormal.json; sourceTree = "<group>"; };
+		32C756C31E645AEE00B89E12 /* carsNotNormal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carsNotNormal.json; sourceTree = "<group>"; };
+		32C756C51E645B8C00B89E12 /* MakeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeTableViewController.swift; sourceTree = "<group>"; };
+		32C756C71E6480E200B89E12 /* ModelsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		32C756AB1E64581F00B89E12 /* LoadCars */ = {
 			isa = PBXGroup;
 			children = (
+				32C756C11E645AE500B89E12 /* carsNormal.json */,
+				32C756C31E645AEE00B89E12 /* carsNotNormal.json */,
 				32C756AC1E64581F00B89E12 /* AppDelegate.swift */,
-				32C756AE1E64581F00B89E12 /* ViewController.swift */,
 				32C756B01E64581F00B89E12 /* Main.storyboard */,
+				32C756C51E645B8C00B89E12 /* MakeTableViewController.swift */,
+				32C756C71E6480E200B89E12 /* ModelsTableViewController.swift */,
 				32C756B61E64581F00B89E12 /* Assets.xcassets */,
 				32C756B81E64581F00B89E12 /* LaunchScreen.storyboard */,
 				32C756BB1E64581F00B89E12 /* Info.plist */,
@@ -128,7 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				32C756BA1E64581F00B89E12 /* LaunchScreen.storyboard in Resources */,
+				32C756C21E645AE500B89E12 /* carsNormal.json in Resources */,
 				32C756B71E64581F00B89E12 /* Assets.xcassets in Resources */,
+				32C756C41E645AEE00B89E12 /* carsNotNormal.json in Resources */,
 				32C756B21E64581F00B89E12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				32C756B51E64581F00B89E12 /* LoadCars.xcdatamodeld in Sources */,
-				32C756AF1E64581F00B89E12 /* ViewController.swift in Sources */,
+				32C756C81E6480E300B89E12 /* ModelsTableViewController.swift in Sources */,
+				32C756C61E645B8C00B89E12 /* MakeTableViewController.swift in Sources */,
 				32C756AD1E64581F00B89E12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
