@@ -16,6 +16,7 @@
 		32C756C41E645AEE00B89E12 /* carsNotNormal.json in Resources */ = {isa = PBXBuildFile; fileRef = 32C756C31E645AEE00B89E12 /* carsNotNormal.json */; };
 		32C756C61E645B8C00B89E12 /* MakeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C756C51E645B8C00B89E12 /* MakeTableViewController.swift */; };
 		32C756C81E6480E300B89E12 /* ModelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C756C71E6480E200B89E12 /* ModelsTableViewController.swift */; };
+		32C756CA1E64885500B89E12 /* cars.json in Resources */ = {isa = PBXBuildFile; fileRef = 32C756C91E64885500B89E12 /* cars.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		32C756C31E645AEE00B89E12 /* carsNotNormal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carsNotNormal.json; sourceTree = "<group>"; };
 		32C756C51E645B8C00B89E12 /* MakeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeTableViewController.swift; sourceTree = "<group>"; };
 		32C756C71E6480E200B89E12 /* ModelsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsTableViewController.swift; sourceTree = "<group>"; };
+		32C756C91E64885500B89E12 /* cars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cars.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				32C756C11E645AE500B89E12 /* carsNormal.json */,
 				32C756C31E645AEE00B89E12 /* carsNotNormal.json */,
+				32C756C91E64885500B89E12 /* cars.json */,
 				32C756AC1E64581F00B89E12 /* AppDelegate.swift */,
 				32C756B01E64581F00B89E12 /* Main.storyboard */,
 				32C756C51E645B8C00B89E12 /* MakeTableViewController.swift */,
@@ -140,6 +143,7 @@
 				32C756C21E645AE500B89E12 /* carsNormal.json in Resources */,
 				32C756B71E64581F00B89E12 /* Assets.xcassets in Resources */,
 				32C756C41E645AEE00B89E12 /* carsNotNormal.json in Resources */,
+				32C756CA1E64885500B89E12 /* cars.json in Resources */,
 				32C756B21E64581F00B89E12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
